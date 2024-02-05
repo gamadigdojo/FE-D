@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8258775b27.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- flex / display flex
+    display flex dipakenya di parent kemudian kasih justify content, nanti efeknya bakal ke childnya
+    -->
+
+    <!-- center 
+    digunakan untuk membuat element kita berada di tengah parentnya
+    -->
+
+    <!-- flex start (default) / left
+    digunakan untuk membuat element kita berada di kiri dari parentnya
+    -->
+
+    <!-- flex end / end / right
+    digunakan untuk membuat element kita berada di kanan parentnya
+    -->
+
+    <!-- space-around 
+    3 point (sebelum, antara & sesudah)
+    digunakan agar element child memiliki jarak di sebelum antara dan sesudah elemennya
+    -->
+
+    <!-- space between 
+    digunkan agar element child memiliki jarak di antar mereka
+    -->
+
+    <!-- space evenly
+    hampir sama dengan space around hanya saja dia memberikan jarak yang sama antar elementnya
+    -->
+
+    <section class="container">
+<!-- parent adalah element yang menampung elemen lain -->
+        <!-- child -->
+        <div class="test">space around</div>
+        <div class="test">space around</div>
+        <div class="test">space around</div>
+
+    </section>
+
+    <section class="container2">
+        <!-- parent adalah element yang menampung elemen lain -->
+            <!-- child -->
+            <div class="test">space evenly</div>
+            <div class="test">space evenly</div>
+            <div class="test">space evenly</div>
+        
+    </section>
+
+    <section class="container3">
+        <!-- parent adalah element yang menampung elemen lain -->
+            <!-- child -->
+            <div class="test">space between</div>
+            <div class="test">space between</div>          <div class="test">space between</div>
+    </section>
+
+
+    <nav class="nav-one">
+
+        <div class="left">
+            <h1>BNCC</h1>
+        </div>
+
+        <div class="nav-links">
+            <a href=""><i class="fa-solid fa-house"></i> Home</a>
+            <a href=""> <i class="fa-solid fa-person-falling"></i> About Us</a>
+            <a href=""> <i class="fa-solid fa-phone"></i> Contact Us</a>
+        </div>
+
+        <div class="button">
+            <button>Sign In</button>
+        </div>
+
+    </nav>
+
+    <nav class="nav-two">
+
+        <div class="left">
+            <h1>BNCC</h1>
+        </div>
+
+
+        <div class="right">
+            <div class="nav-links">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+            </div>
+
+            <div class="button">
+                <button>Sign In</button>
+            </div>
+        </div>
+        
+    </nav>
+    
+</body>
+</html>

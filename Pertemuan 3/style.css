@@ -1,0 +1,104 @@
+/* selct element p */
+/* p{
+    color: blue;
+} */
+
+/* css selector (element) */
+body{
+    padding: 20px 100px 20px 100px;
+    font-family: 'Times New Roman', Times, serif;
+
+    /* padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px; */
+}
+
+/* class selector 
+. -> nunjuk class
+# -> nunjuk id
+*/
+#nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* element selector */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 7px 30px 7px 30px;
+    border-radius: 30px;
+}
+
+/* pseudo class */
+button:hover{
+    background-color: red;
+}
+
+/* id selector */
+#main{
+    margin-top: 200px;
+    max-width: 50%;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: -50px;
+}
+
+.subtitle{
+    font-size: 25px;
+}
+
+.desc{
+    text-align: justify;
+    margin-bottom: 40px;
+    color: blue;
+}
+
+.cta{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.left-footer{
+    display: flex;
+    gap: 30px;
+}
+
+/* media query -> website responsif (bisa dibuka di segala device)*/
+
+/* > 1080 */
+@media screen and (max-width: 1080px) {
+    .navbar button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .logo{
+        display: none;
+    }
+}

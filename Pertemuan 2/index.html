@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- table (tr,td,th), div, cellpadding, cellspacing, rowspan, colspan -->
+    <!-- border, border-collapse -->
+    <!-- width & height -->
+    <!-- inline block -->
+
+    <!-- table, div, border, border collapse -->
+
+    <!-- div - sebagai pengikat -->
+    <div class="container">
+        <h1>contoh table</h1>
+        <table>
+            <tr>
+                <th>Nama: </th>
+                <td>Aji</td>
+            </tr>
+
+            <tr>
+                <th>Umur: </th>
+                <td>12 tahun</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- cellpadding -->
+
+    <div class="container padding">
+        <h1>cellpadding</h1>
+        <table>
+            <tr>
+                <th>Nama: </th>
+                <td>Aji</td>
+            </tr>
+
+            <tr>
+                <th>Umur: </th>
+                <td>12 tahun</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- cellspacing -->
+
+    <div class="container spacing">
+        <h1>cellspacing</h1>
+        <table>
+            <tr>
+                <th>Nama: </th>
+                <td>Aji</td>
+            </tr>
+
+            <tr>
+                <th>Umur: </th>
+                <td>12 tahun</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- rowspan -->
+
+    <div class="container rowspan">
+        <h1>rowspan</h1>
+        <table>
+            <tr>
+                <th>Nama: </th>
+                <td>Aji</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" >Phone Number: </th>
+                <td>08123456789</td>
+            </tr>
+
+            <tr>
+                <td>9876543210</td>
+            </tr>
+
+            <tr>
+                <td>9012370182718</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- colspan -->
+
+    <div class="container colspan">
+        <h1>colspan</h1>
+        <table>
+            <tr>
+                <th colspan="3">Kategori</th>
+                <th>Harga</th>
+            </tr>
+
+            <tr>
+                <td>Baju</td>
+                <td>Celana</td>
+                <td>Jaket</td>
+                <td>Rp.20.000 - Rp.100.000</td>
+            </tr>
+
+            <tr>
+                <td>Jam Tangan</td>
+                <td>Gelang</td>
+                <td>Kalung</td>
+                <td>Rp.200.000 - Rp.1.000.000</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- width & height (attribute dari css)-->
+
+    <div class="container">
+        <h1>width & height</h1>
+        <img src="./assets/GambarContoh.jpeg" alt="error">
+    </div>
+
+    <!-- inline block = supaya element kita bisa dikasih width & height -->
+    <!-- di class gaboleh ada spasi, kalo spasi artinya 2 class yang berbeda -->
+    <div class="container mb">
+        <a class="inline-block" href="">Link 1</a>
+        <a href="">Link 2</a>
+        <a class="inline-block" href="">Link 3</a>
+    </div>
+   
+    <div class="contoh">
+        <h3>KOMPOSISI PEGAWAI DI PT SUKA MAJU</h3>
+
+        <table>
+
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Bagian</th>
+                <th colspan="7">Tingkat Pendidikan</th>
+                <th rowspan="2">Jml</th>
+            </tr>
+
+            <tr>
+                <th>S3</th>
+                <th>S2</th>
+                <th>S1</th>
+                <th>SMA</th>
+                <th>SMK</th>
+                <th>SMP</th>
+                <th>SD</th>
+            </tr>
+
+            <tr class="data">
+                <td>1</td>
+                <td>Keuangan</td>
+                <td></td>
+                <td></td>
+                <td>25</td>
+                <td>45</td>
+                <td>156</td>
+                <td>12</td>
+                <td>3</td>
+                <td>241</td>
+            </tr>
+
+            <tr class="data">
+                <td>2</td>
+                <td>Umum</td>
+                <td></td>
+                <td></td>
+                <td>5</td>
+                <td>6</td>
+                <td>8</td>
+                <td>4</td>
+                <td>1</td>
+                <td>24</td>
+            </tr>
+
+            <tr class="data">
+                <td>3</td>
+                <td>Penjualan</td>
+                <td></td>
+                <td></td>
+                <td>7</td>
+                <td></td>
+                <td>65</td>
+                <td>37</td>
+                <td>5</td>
+                <td>114</td>
+            </tr>
+
+            <tr class="data">
+                <td>4</td>
+                <td>Litbang</td>
+                <td>1</td>
+                <td>8</td>
+                <td>35</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>44</td>
+            </tr>
+
+            <tr class="yellow">
+                <td colspan="2">Jumlah</td>
+                <td>1</td>
+                <td>8</td>
+                <td>72</td>
+                <td>51</td>
+                <td>229</td>
+                <td>53</td>
+                <td>9</td>
+                <td>423</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+.desc{
+    color: brown;
+}
+
+table{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+/* px itu satuan (cm/m/kg) */
+
+.title{
+    background-color: grey;
+}
