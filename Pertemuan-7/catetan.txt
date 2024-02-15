@@ -1,0 +1,12 @@
+setelah bikin akun di website github
+
+kita masukkan email dan username github ke laptop kita, dengan cara:
+git config --global user.name username
+git config --global user.email email
+
+untuk ngecek apakah email dan username kita udah masuk ke git yang ada di laptop kita, bisa pake command:
+git config --global --list
+
+nanti akan keluar username dan email yg kalian masukkan
+
+revert = gunanya untuk undo commit
