@@ -3,11 +3,19 @@ console.log("Tipe Data")
 var integer = 10
 console.log(integer)
 
-var string ="haha"
+var string ='10'
 console.log(string)
 
-var boolean = false
-console.log(boolean)
+var bpopupopu = true
+// console.log(boolean)
+
+// var password = ""
+// var cpassword = ""
+
+
+// if(password !== cpassword){
+//     b = false;
+// }
 
 var date = new Date();
 console.log(date)
@@ -26,6 +34,11 @@ console.log("Tipe variable")
 
 console.log("var, let, const")
 
+// const bbn = "a"
+// const bbn = "b"
+
+// local, global, block scope of variable
+
 console.log("arithmetic operators")
 // + - / *
 console.log(5*9)
@@ -33,7 +46,8 @@ console.log(5*9)
 console.log("comparison and logical operators")
 
 // == (is equal)
-let a = (5==6)
+let a = (5===5)
+console.log(a)
 
 // strict equal
 let aa = (5==="5")
@@ -143,6 +157,7 @@ greet()
 
 // function with parameter
 function nyapa(nama){
+    
     console.log("Hello "+nama)
 }
 
