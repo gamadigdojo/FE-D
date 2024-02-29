@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function(){
     })
     
     // prompt
-    var inputNama = prompt('Masukkan nama Anda:')
+    var inputNama = prompt('Masukkan notelp:')
     
     if(inputNama !==null && inputNama !== ""){
         alert("Halo, " +inputNama + "! Selamat datang di web kami")
     }else{
         alert("Mohon untuk mengisi nama")
     }
-})
 
+})

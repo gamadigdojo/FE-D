@@ -1,0 +1,16 @@
+1. Library
+Library adalah kumpulan code yang telah dikembangkan untuk digunakan dalam pembangunan perangkat lunak.
+
+2. jQuery
+jQuery adalah sebuah library javascript yang cepat ringan dan kaya akan fitur. Tujuannya adlaah untuk menyederhanakan penulisan code javascript
+
+3. CDN
+Content Delivery Network adalah proses dimana kita mengambil source dari internet
+
+4. Tipe jQuery
+
+    - local jQuery
+      kita harus download jQuery dari web resmi jQuery, kemudian kita extract file nya  
+
+    - CDN jQuery
+      ga perlu install jQuery, karena kita mengakses library jQuery secara online
