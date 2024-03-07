@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('h1').text("Hello jQuery")
+    $('h1').text("Hello Morning")
 
     $("#par").css("color","blue")
 
@@ -16,6 +16,7 @@ $(document).ready(function(){
     // animate
     $('#animatedElements').click(function(){
         $(this).animate({
+            top: '250px',
             left: '250px',
             opacity: '0.5',
             height: '+=150px',
